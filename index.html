@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expert Freelancers - Portfolio</title>
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif;}
+    body {background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: #fff;}
+
+    header {text-align: center; padding: 3rem 1rem;}
+    header h1 {font-size: 3rem; text-transform: uppercase; letter-spacing: 2px; text-shadow: 2px 2px 8px #000;}
+    header p {margin-top: 1rem; font-size: 1.2rem; opacity: 0.8;}
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1400px;
+      margin: auto;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+      backdrop-filter: blur(12px);
+      transform: perspective(1000px) rotateX(0deg);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .card:hover {
+      transform: perspective(1000px) rotateX(5deg) scale(1.05);
+      box-shadow: 0 25px 40px rgba(0,0,0,0.7);
+    }
+
+    .card h2 {margin-bottom: 1rem; font-size: 1.6rem; color: #00e5ff;}
+    .card p {margin-bottom: 1.5rem; font-size: 1rem; opacity: 0.9;}
+
+    .btn-group {display: flex; justify-content: center; gap: 1rem;}
+    .btn {
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #fff;
+      background: linear-gradient(135deg, #00e5ff, #0072ff);
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+    .btn:hover {transform: scale(1.1);}
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: rgba(0,0,0,0.3);
+      margin-top: 3rem;
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+    footer p {opacity: 0.7;}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Expert Freelancers</h1>
+    <p>We provide professional freelance services to help you grow and succeed online. Trust us to deliver quality work.</p>
+  </header>
+
+  <section class="services">
+    <!-- Services Cards -->
+    <div class="card">
+      <h2>Logo Design</h2>
+      <p>Creative and modern logo designs that define your brand identity.</p>
+      <div class="btn-group">
+        <a href="https://www.fiverr.com" class="btn">Order Now</a>
+        <a href="https://wa.me/923001234567" class="btn">Direct Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Web Development</h2>
+      <p>Responsive and high-performing websites tailored to your needs.</p>
+      <div class="btn-group">
+        <a href="https://www.fiverr.com" class="btn">Order Now</a>
+        <a href="https://wa.me/923001234567" class="btn">Direct Order</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>SEO Optimization</h2>
+      <p>Boost your website visibility with advanced SEO strategies.</p>
+      <div class="btn-group">
+        <a href="https://www.fiverr.com" class="btn">Order Now</a>
+        <a href="https://wa.me/923001234567" class="btn">Direct Order</a>
+      </div>
+    </div>
+
+    <!-- Repeat this format for 30 services -->
+    <div class="card"><h2>Content Writing</h2><p>Engaging and SEO-friendly articles, blogs, and copies.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Video Editing</h2><p>Professional editing for YouTube, ads, and social media.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Social Media Marketing</h2><p>Grow your brand with targeted social campaigns.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Brand Strategy</h2><p>Custom strategies to establish a strong brand presence.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Flyer & Poster Design</h2><p>Eye-catching marketing materials for promotions.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Business Card Design</h2><p>Modern and professional business cards for networking.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>E-book Design</h2><p>Beautifully formatted e-books ready for publishing.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Resume Writing</h2><p>Professional resumes to help you land your dream job.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Cover Letter Writing</h2><p>Persuasive cover letters that get attention.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Book Cover Design</h2><p>Stunning covers that attract readers instantly.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Podcast Editing</h2><p>Clean and professional audio editing for podcasts.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>App UI/UX Design</h2><p>User-friendly and modern mobile app interfaces.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Website Redesign</h2><p>Transform your old site into a modern masterpiece.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Email Marketing</h2><p>Effective email campaigns that convert leads to sales.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Ad Campaigns</h2><p>Google & Facebook ads tailored for maximum ROI.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Motion Graphics</h2><p>Animated videos to showcase your brand creatively.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Voice Over</h2><p>Professional voice overs in multiple accents & languages.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>3D Modeling</h2><p>High-quality 3D models for your projects & animations.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>3D Logo Animation</h2><p>Bring your logo to life with custom animations.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Infographic Design</h2><p>Data-driven designs that simplify complex information.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Presentation Design</h2><p>Modern PowerPoint/Keynote slides for business.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Blog Setup</h2><p>Launch your personal or business blog in no time.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Landing Page Design</h2><p>High-converting landing pages for your products.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Shopify Store Setup</h2><p>Professional e-commerce store setup & customization.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>WordPress Development</h2><p>Custom WordPress websites with premium features.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Virtual Assistant</h2><p>Reliable VA services to manage your daily tasks.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+    <div class="card"><h2>Customer Support</h2><p>24/7 professional customer support services.</p><div class="btn-group"><a href="https://www.fiverr.com" class="btn">Order Now</a><a href="https://wa.me/923001234567" class="btn">Direct Order</a></div></div>
+  </section>
+
+  <footer>
+    <p>© 2025 Expert Freelancers. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
